@@ -16,7 +16,7 @@ class _PrincipalPageState extends State<PrincipalPage> {
       child: Center(
           child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
-        children: <Widget>[ _button(),_createTree(), _createLogo()],
+        children: <Widget>[_createTree(), _button(), _createLogo()],
       )),
     ));
   }
